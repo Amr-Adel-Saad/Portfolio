@@ -222,6 +222,7 @@ body {
 }
 
 footer {
+  text-align: center;
   position: absolute;
   bottom: 0;
   height: 400px;
@@ -235,17 +236,20 @@ footer {
   p {
     font-size: 32px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 5%;
   }
 
   span {
     font-size: 20px;
     font-style: italic;
-    margin: 15px auto 40px;
+    margin: 4% auto 5%;
   }
 
   div {
-    margin: 20px auto;
+    margin: 0 auto 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   a {
@@ -254,6 +258,7 @@ footer {
     font-weight: bold;
     color: white;
     text-decoration: none;
+    margin: auto 10px;
   }
 
   a:hover {
@@ -261,13 +266,54 @@ footer {
   }
 
   #copyright {
+    position: absolute;
     color: #8f9aa7;
-    margin-top: 80px;
+    margin: 0;
+    bottom: 50px;
 
     span {
       color: #e31b6d;
       font-size: 14px;
       font-style: normal;
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    font-size: 16px;
+  }
+
+  #home {
+    h1 {
+      font-size: 28px;
+    }
+
+    a {
+      font-size: 16px;
+    }
+  }
+
+  #projects {
+    .project-div {
+      width: 100%;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+  
+  footer {
+    p {
+      font-size: 24px;
+    }
+
+    span {
+      font-size: 18px;
+    }
+
+    a {
+      font-size: 14px;
     }
   }
 }

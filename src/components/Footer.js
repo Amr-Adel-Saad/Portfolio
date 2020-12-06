@@ -19,7 +19,7 @@ export default function Footer() {
           <i className="fas fa-mobile-alt fa-lg fa-fw"></i>+20 1020426366 
         </a>
       </div>
-      <div id="copyright">Amr Adel <span>&copy;2020</span></div>
+      <div id="copyright">Amr Adel <span> &copy;2020</span></div>
     </footer>
   );
 }
