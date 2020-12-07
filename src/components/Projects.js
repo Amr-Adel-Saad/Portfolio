@@ -25,7 +25,7 @@ export default function Projects() {
           <div className="project-info">
             <div>
               <span>rooms</span>
-              <p>A chat app created using the ReactJS, ExpressJS, and Socket.IO.</p>
+              <p>A chat app created using ReactJS, ExpressJS, and Socket.IO.</p>
             </div>
             <a href="https://amr-rooms.herokuapp.com/" target="_blank" rel="noreferrer">
               Visit rooms
